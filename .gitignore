@@ -1,4 +1,4 @@
 .env
-.pgnd-agents
+.venv
 __pycache__
 src/pgnd_agents.egg-info

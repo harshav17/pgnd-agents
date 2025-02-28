@@ -1,7 +1,7 @@
 from pathlib import Path
 import chromadb
 from chromadb.config import Settings
-from ..config.paths import get_data_dir
+from .paths import get_data_dir
 import chromadb.utils.embedding_functions as embedding_functions
 
 class ChromaDBHandler:

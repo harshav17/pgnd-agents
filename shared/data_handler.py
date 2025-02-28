@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 import json
-from typing import Union, Any, Dict
-from ..config.paths import get_data_dir
+from typing import Any, Dict
+from .paths import get_data_dir
 
 class DataHandler:
     """Handles data operations across the project."""
