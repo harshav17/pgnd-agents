@@ -13,6 +13,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "chromadb>=0.6.3",
+    "llama-index-core>=0.12.27",
+    "llama-index-llms-openai>=0.3.29",
+    "marimo>=0.11.31",
     "openai>=1.65.1",
     "pandas>=2.2.3",
     "pydantic>=2.10.6",
