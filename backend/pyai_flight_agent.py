@@ -20,7 +20,7 @@ class FlightAgentDeps(BaseModel):
     selected_date: Optional[str] = None
 
 agent = Agent(
-    'openai:gpt-4',
+    'openai:gpt-4o',
     result_type=FlightSearchResult,
     deps_type=FlightAgentDeps
 )
